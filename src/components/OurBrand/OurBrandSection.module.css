@@ -1,0 +1,54 @@
+.sectionContainer{
+    position: relative;
+}
+.OurBrandBody{
+    margin-right: 30px;
+}
+.OurBrandContainer{
+    padding: 65px 0px;
+    background-color: var(--secondary-theme);
+}
+.OurBrandWrapper ul li,
+.OurBrandWrapper ul li a{
+    height: 100%;
+    display: block;
+}
+.OurBrandWrapper .OurBrandBody{
+    transition: color .5s ease;
+}
+.OurBrandWrapper ul li{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.OurBrandBody img{
+    -webkit-transition: -webkit-transform .6s cubic-bezier(.175,.885,.32,1.375);
+    -moz-transition: -moz-transform .6s cubic-bezier(.175, .885, .32, 1.375);
+    -o-transition: -o-transform .6s cubic-bezier(.175, .885, .32, 1.375);
+    transition: -webkit-transform .6s cubic-bezier(.175,.885,.32,1.375), 
+    -moz-transform .6s cubic-bezier(.175,.885,.32,1.375), 
+    -o-transform .6s cubic-bezier(.175,.885,.32,1.375), 
+    transform .6s cubic-bezier(.175,.885,.32,1.375);
+}
+.OurBrandWrapper ul li a:hover [data-set='hoverImg'] {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.OurBrandBody [data-set='hoverImg']{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -100%);
+    -moz-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    -o-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+}
+.OurBrandWrapper [aria-label="Go to previous slide"],
+.OurBrandWrapper [aria-label="Go to next slide"]{
+    display: none;
+}
