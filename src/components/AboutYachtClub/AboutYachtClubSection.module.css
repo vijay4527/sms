@@ -1,0 +1,56 @@
+.sectionContainer{
+    position: relative;
+}
+.AboutYachtClubSectionContainer{
+    position: relative;
+    background-image: url(http://lamaro.like-themes.com/wp-content/uploads/2018/12/countup-bg.jpg?id=7690);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: #f1f0e8;
+    padding: 125px 0px;
+}
+.AboutYachtClubBody{
+    text-align: center;
+}
+.AboutYachtClubSubheading{
+    font-family: var(--font-family-cursive);
+    color: var(--primary-theme);
+    font-size: 30px;
+    margin: 0;
+  }
+  .AboutYachtClubHeading{
+    font-family: var(--font-family-display);
+    font-size: 48px;
+    color: var(--secondary-theme);
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  .customerCountBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+  .countNumber{
+    color: var(--primary-theme);
+    line-height: 1em;
+    position: relative;
+    font-size: 120px;
+    font-family: var(--font-family-display);
+    font-weight: 400;
+  }
+  .countName{
+    color: var(--secondary-theme);
+    margin: 36px 0 0;
+    font-size: 30px;
+    font-family: var(--font-family-display);
+    font-weight: 400;
+  }
+  .countDesc{
+    font-size: 14px;
+    line-height: 1.7em;
+    width: 75%;
+    font-family: var(--font-family);
+    font-weight: 500;
+    margin: 10px auto;
+  }
