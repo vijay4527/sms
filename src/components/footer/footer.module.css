@@ -12,3 +12,27 @@
   height: 30px;
   background: url(http://lamaro.like-themes.com/wp-content/themes/lamaro/assets/images/rope.png) repeat-x 0 50%;
 }
+.footerContainer{
+  background-color: var(--secondary-theme);
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+}
+.footerWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footerWrapper ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footerLogo{
+  margin: 20px 0 0 90px;
+        text-align: left;
+        padding-top: 45px;
+        padding-bottom: 35px;
+}
+.footerHeading{
+
+}

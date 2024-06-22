@@ -89,12 +89,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className={styles.bannerContainer}>
-        <Carousel responsive={responsive} autoPlay={true}
-          autoPlaySpeed={10000} // 10 seconds
-          infinite={true}>
+        <Carousel responsive={responsive}>
           {images.map((image, index) => (
-            <div key={index}>
+            <div key={index} className={styles.bannerWrapper}>
               <img src={image} alt={`Slide ${index + 1}`} style={{ width: '100%' }} />
+              <div className={styles.bannerBody}>
+                <h4 className={styles.bannerSubheading}>Prepeare for</h4>
+                <h3 className={styles.bannerHeading}>Fantasy sailing</h3>
+                <p className={styles.bannerDesc}>Integer sagittis nisi nec tortor fermentum aliquet. Integer non neque tempor, porttitor lorem id, commodo nulla. Nullam sed ultricies erat, nec euismod metus. Morbi porttitor sapien vitae leo scelerisque consequat.</p>
+              </div>
             </div>
           ))}
         </Carousel>

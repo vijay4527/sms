@@ -52,7 +52,7 @@
     opacity: .7;
 }
 .bannerContainer img {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -93,4 +93,33 @@
 .bannerContainer button[aria-label="Go to previous slide"]::before,
 .bannerContainer button[aria-label="Go to next slide"]::before{
   font-size: 32px;
+}
+
+.bannerWrapper{
+  position: absolute;
+    z-index: 18;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerBody{
+
+}
+.bannerSubheading{
+  font-size: 40px;
+  font-family: var(--font-family-cursive);
+}
+.bannerHeading{
+  font-size: 80px;
+  font-family: var(--font-family-display);
+}
+.bannerDesc{
+  font-size: 80px;
+  font-family: var(--font-family);
 }
