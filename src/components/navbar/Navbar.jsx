@@ -92,7 +92,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className={styles.bannerContainer}>
-        <Carousel responsive={responsive}>
+        <Carousel responsive={responsive} autoPlay={true}
+          autoPlaySpeed={10000} // 10 seconds
+          infinite={true}>
           {images.map((image, index) => (
             <div key={index} className={styles.bannerWrapper}>
               <img src={image} alt={`Slide ${index + 1}`} style={{ width: '100%' }} />
