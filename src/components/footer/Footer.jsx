@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="container">
             <div className={styles.footerWrapper}>
               <div className={styles.footerLogo}>
-                <img src="http://lamaro.like-themes.com/wp-content/uploads/2018/02/logo_lamaro-1x.png" />
+                <img src="https://fama.b-cdn.net/sms/smsLogo.png" />
               </div>
               <div className={styles.footerLinks}>
                 <h4 className={styles.footerHeading}>Explore</h4>
