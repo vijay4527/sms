@@ -25,12 +25,12 @@ const OurBrandSection = () => {
     };
 
     const ClubServicesImg = [
-        'https://placehold.co/120x120',
-        'https://placehold.co/120x120',
-        'https://placehold.co/120x120',
-        'https://placehold.co/120x120',
-        'https://placehold.co/120x120',
-        'https://placehold.co/120x120',
+        'https://fama.b-cdn.net/sms/partner-1.webp',
+        'https://fama.b-cdn.net/sms/partner-2.webp',
+        'https://fama.b-cdn.net/sms/partner-3.webp',
+        'https://fama.b-cdn.net/sms/partner-4.webp',
+        'https://fama.b-cdn.net/sms/partner-5.webp',
+        'https://fama.b-cdn.net/sms/partner-6.webp',
     ];
 
     return (

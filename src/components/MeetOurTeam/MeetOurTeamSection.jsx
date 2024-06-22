@@ -8,17 +8,17 @@ import Image from "next/image";
 const MeetOurTeamSection = () => {
     const data = [
         {
-            image: 'https://placehold.co/166x166',
+            image: 'https://fama.b-cdn.net/sms/team1.webp',
             name: 'John Portman',
             position: 'Team manager'
         },
         {
-            image: 'https://placehold.co/166x166',
+            image: 'https://fama.b-cdn.net/sms/team2.webp',
             name: 'John Portman',
             position: 'Team manager'
         },
         {
-            image: 'https://placehold.co/166x166',
+            image: 'https://fama.b-cdn.net/sms/team3.webp',
             name: 'John Portman',
             position: 'Team manager'
         },

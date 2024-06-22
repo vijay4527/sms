@@ -27,52 +27,52 @@ const ClubServicesSection = () => {
 
     const ClubServicesImg = [
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_01.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_02.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_03.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_01.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_02.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_03.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_01.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_02.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_03.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
         {
-            image: 'https://placehold.co/430x280',
+            image: 'https://fama.b-cdn.net/sms/service_01.webp',
             name: 'Yacht Rental',
             desc: 'Maecenas augue nibh, congue ut ante id, tempus vestibulum sem. Praesent interdum leo sit amet sapien porta interdum.',
         },
