@@ -27,6 +27,8 @@
     overflow: hidden;
     display: block;
     text-align: center;
+    width: 120px;
+    height: 120px;
 }
 .OurBrandBody img{
     -webkit-transition: -webkit-transform .6s cubic-bezier(.175,.885,.32,1.375);
@@ -43,6 +45,13 @@
     -ms-transform: translate(-50%, 0%);
     -o-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
+}
+.OurBrandWrapper ul li a:hover img:not([data-set='hoverImg']) {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
 }
 .OurBrandBody [data-set='hoverImg']{
     position: absolute;

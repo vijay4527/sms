@@ -58,6 +58,10 @@
     no-repeat 50% 50%;
   background-size: cover;
 }
+.MeetOurTeamSectionImg img{
+    height: 198px;
+    width: 198px;
+}
 .MeetOurTeamSectionName {
   color: var(--secondary-theme);
   margin: 5px 0 0;
