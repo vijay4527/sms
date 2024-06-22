@@ -8,58 +8,58 @@
 }
 .navbarLogo {
   display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    padding: 30px 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  padding: 30px 0;
 }
-.logo img{
+.logo img {
   max-height: 140px;
   width: auto;
 }
 .links {
   display: flex;
-    position: absolute;
-    left: 0;
+  position: absolute;
+  right: 0;
 }
 .link {
   color: var(--primary-theme);
-    font-size: 14px;
-    float: left;
-    margin-right: 20px;
-    font-family: var(--font-family);
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
+  font-size: 14px;
+  float: left;
+  margin-right: 20px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.bannerContainer{
+.bannerContainer {
   height: 100%;
   position: relative;
   z-index: 1;
 }
-.bannerContainer::before{
+.bannerBody::before {
   content: "";
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    background-color: #28364b;
-    zoom: 1;
-    filter: alpha(opacity = 70);
-    -webkit-opacity: .7;
-    -moz-opacity: .7;
-    opacity: .7;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #28364b;
+  zoom: 1;
+  filter: alpha(opacity = 70);
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
 }
 .bannerContainer img {
   position: fixed;
@@ -72,77 +72,147 @@
   transform: scale(1, 1);
 }
 .bannerContainer > div,
-.bannerContainer ul{
+.bannerContainer ul {
   height: 100%;
 }
-.bannerContainer ul [aria-hidden="false"]{
+.bannerContainer ul [aria-hidden="false"] {
   transition: transform 20000ms ease-out 0s, opacity 1000ms ease 0s;
   opacity: 1;
   transform: scale(1.2, 1.2);
   z-index: 2;
 }
 
-.bannerContainer button[aria-label="Go to previous slide"]{
+.bannerContainer button[aria-label="Go to previous slide"] {
   left: calc(7.5% + 1px);
 }
-.bannerContainer button[aria-label="Go to next slide"]{
+.bannerContainer button[aria-label="Go to next slide"] {
   right: calc(7.5% + 1px);
 }
 .bannerContainer button[aria-label="Go to previous slide"],
-.bannerContainer button[aria-label="Go to next slide"]{
+.bannerContainer button[aria-label="Go to next slide"] {
   min-width: 70px;
-    min-height: 70px;
-    opacity: 1;
-    cursor: pointer;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 0;
+  min-height: 70px;
+  opacity: 1;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
 }
 .bannerContainer button[aria-label="Go to previous slide"]::before,
-.bannerContainer button[aria-label="Go to next slide"]::before{
+.bannerContainer button[aria-label="Go to next slide"]::before {
   font-size: 32px;
 }
 
-.bannerWrapper{
-  position: absolute;
-    z-index: 18;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bannerWrapper {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: -30px auto;
 }
-.bannerBody{
-
+.bannerBody {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
-.bannerSubheading{
-  font-size: 40px;
+.bannerBody > div {
+  width: 100%;
+  margin: 100px auto 0;
+  z-index: 19;
+}
+.bannerSubheading {
+  font-size: 28px;
   font-family: var(--font-family-cursive);
+  margin: 0;
+  color: var(--primary-theme);
+  font-weight: 600;
 }
-.bannerHeading{
-  font-size: 80px;
+.bannerHeading {
+  font-size: 60px;
   font-family: var(--font-family-display);
+  color: #fff;
 }
-.bannerDesc{
-  font-size: 80px;
+.bannerDesc {
+  font-size: 14px;
   font-family: var(--font-family);
+  color: #fff;
 }
-
+.btnPrimary {
+  font-size: 12px;
+  padding: 12px 26px;
+  line-height: 1.6em;
+  min-width: 145px;
+  text-transform: capitalize;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: 0;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  background-color: #cebd88;
+  box-shadow: inset 0 0px 0 50px #cebd88;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-offset: 1px;
+  outline-color: #cebd88;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.btnPrimary:hover {
+  box-shadow: inset 0 0px 0 0 #cebd88;
+  background-color: #28364b;
+  color: #fff;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-offset: 1px;
+  outline-color: #28364b;
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
-  .navbarLogo{
-      flex-wrap: wrap;
-      flex-direction: column-reverse;
-  } 
+  .navbarLogo {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
   .links {
     position: relative;
     padding: 10px 0px;
     width: 100%;
     justify-content: center;
+  }
+  .bannerContainer button[aria-label="Go to previous slide"] {
+    left: 0;
+    transform: translate(100%, -50%);
+    bottom: 0;
+  }
+  .bannerContainer button[aria-label="Go to next slide"] {
+    right: 0;
+    transform: translate(-100%, -50%);
+    bottom: 0;
+  }
+  .bannerBody {
+    width: 75%;
+  }
+  .bannerHeading {
+    font-size: 40px;
   }
 }
