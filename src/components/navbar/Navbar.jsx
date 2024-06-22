@@ -49,10 +49,13 @@ const Navbar = () => {
   };
 
   const images = [
+    'https://fama.b-cdn.net/sms/slide2.webp',
+    'https://fama.b-cdn.net/sms/slide1.webp',
     'https://fama.b-cdn.net/sms/SLIDE_01.webp',
     'https://fama.b-cdn.net/sms/SLIDE_02.webp',
     'https://fama.b-cdn.net/sms/SLIDE_03.webp',
     'https://fama.b-cdn.net/sms/SLIDE_04.webp',
+    
   ];
 
   return (
