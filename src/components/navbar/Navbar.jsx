@@ -116,6 +116,10 @@ const Navbar = () => {
           ))}
         </Carousel>
       </div>
+
+      <div className={styles.bannerSeaAnchor}>
+        <img src="https://fama.b-cdn.net/sms/sea-anchor.png" />
+      </div>
     </div>
   );
 };
