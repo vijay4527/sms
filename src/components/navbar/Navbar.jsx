@@ -49,10 +49,10 @@ const Navbar = () => {
   };
 
   const images = [
-    'http://lamaro.like-themes.com/wp-content/uploads/2018/02/SLIDE_01.jpg',
-    'http://lamaro.like-themes.com/wp-content/uploads/2018/02/SLIDE_02.jpg',
-    'http://lamaro.like-themes.com/wp-content/uploads/2018/02/SLIDE_03.jpg',
-    'http://lamaro.like-themes.com/wp-content/uploads/2018/02/SLIDE_04.jpg',
+    'https://fama.b-cdn.net/sms/SLIDE_01.webp',
+    'https://fama.b-cdn.net/sms/SLIDE_02.webp',
+    'https://fama.b-cdn.net/sms/SLIDE_03.webp',
+    'https://fama.b-cdn.net/sms/SLIDE_04.webp',
   ];
 
   return (
@@ -68,7 +68,7 @@ const Navbar = () => {
               ))}
             </div>
             <Link href="/" className={styles.logo}>
-              <img alt="Logo not found" src='http://lamaro.like-themes.com/wp-content/uploads/2018/02/logo_lamaro-1x.png' />
+              <img alt="Logo not found" src='https://fama.b-cdn.net/sms/smsLogo.png' />
             </Link>
           </div>
 
