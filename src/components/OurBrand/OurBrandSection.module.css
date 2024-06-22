@@ -4,6 +4,12 @@
 .OurBrandBody{
     margin-right: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .OurBrandBody{
+        margin-right: 0px;
+    }
+  }
 .OurBrandContainer{
     padding: 65px 0px;
     background-color: var(--secondary-theme);
@@ -16,7 +22,7 @@
 .OurBrandWrapper .OurBrandBody{
     transition: color .5s ease;
 }
-.OurBrandWrapper ul li{
+.OurBrandWrapper ul li a{
     position: relative;
     overflow: hidden;
     display: block;
@@ -32,11 +38,11 @@
     transform .6s cubic-bezier(.175,.885,.32,1.375);
 }
 .OurBrandWrapper ul li a:hover [data-set='hoverImg'] {
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    transform: translateY(100%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
 }
 .OurBrandBody [data-set='hoverImg']{
     position: absolute;

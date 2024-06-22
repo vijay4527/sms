@@ -24,6 +24,16 @@
     position: absolute;
     left: 0;
 }
+.link {
+  color: var(--primary-theme);
+    font-size: 14px;
+    float: left;
+    margin-right: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .bannerContainer{
   height: 100%;
   position: relative;
@@ -122,4 +132,17 @@
 .bannerDesc{
   font-size: 80px;
   font-family: var(--font-family);
+}
+
+@media screen and (max-width: 768px) {
+  .navbarLogo{
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+  } 
+  .links {
+    position: relative;
+    padding: 10px 0px;
+    width: 100%;
+    justify-content: center;
+  }
 }

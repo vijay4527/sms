@@ -54,3 +54,10 @@
     font-weight: 500;
     margin: 10px auto;
   }
+  @media screen and (max-width: 768px) {
+    .customerCountBody{
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+  }
