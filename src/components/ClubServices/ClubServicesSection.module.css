@@ -1,145 +1,157 @@
-.sectionContainer{
-    position: relative;
+.sectionContainer {
+  position: relative;
 }
-.sectionDivider{
-    content: "";
-    position: absolute !important;
-    top: -7px;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    width: 100%;
-    height: 30px;
-    background: url(https://fama.b-cdn.net/sms/rope_divider.webp) repeat-x 0 50%;
+.sectionDivider {
+  content: "";
+  position: absolute !important;
+  top: -7px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 30px;
+  background: url(https://fama.b-cdn.net/sms/rope_divider.webp) repeat-x 0 50%;
 }
 .ClubServicesContainer {
-    position: relative;
-    background-image: url(https://fama.b-cdn.net/sms/services-bg-2.webp);
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-color: #f1f0e8;
-    padding: 125px 0px 75px;
+  position: relative;
+  background-image: url(https://fama.b-cdn.net/sms/services-bg-2.webp);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-color: #f1f0e8;
+  padding: 125px 0px 75px;
 }
-.ClubServicesBody{
-    text-align: center;
+.ClubServicesBody {
+  text-align: center;
 }
-.ClubServiceItem{
-    margin-right: 30px;
-    padding: 30px 30px 60px;
-    background-color: #fff;
-    border-bottom: 4px solid transparent;
+.ClubServiceItem {
+  margin-right: 30px;
+  padding: 30px 30px 60px;
+  background-color: #fff;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  max-height: 570px;
 }
-.ClubServiceItem:hover{
-    border-color: var(--primary-theme);
+.ClubServiceItem:hover {
+  border-color: var(--primary-theme);
 }
-.ClubServicesItems ul{
-    padding-bottom: 85px;
+.ClubServicesItems ul {
+  padding-bottom: 85px;
 }
 
-.ClubServicesItems button[aria-label="Go to previous slide"]{
-    left: calc(100% + -53.7%);
+.ClubServicesItems button[aria-label="Go to previous slide"] {
+  left: calc(100% + -53.7%);
+}
+.ClubServicesItems button[aria-label="Go to next slide"] {
+  right: calc(100% + -53.7%);
+}
+.ClubServicesItems button[aria-label="Go to previous slide"],
+.ClubServicesItems button[aria-label="Go to next slide"] {
+  min-width: 46px;
+  min-height: 46px;
+  opacity: 1;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+  line-height: 70px;
+  bottom: 0;
+  border-radius: 0;
+  background-color: #fff;
+}
+.ClubServicesItems button[aria-label="Go to previous slide"]::before,
+.ClubServicesItems button[aria-label="Go to next slide"]::before {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-theme);
+}
+.ClubServiceSubheading {
+  font-family: var(--font-family-cursive);
+  color: var(--primary-theme);
+  font-size: 30px;
+  margin: 0;
+}
+.ClubServiceHeading {
+  font-family: var(--font-family-display);
+  font-size: 48px;
+  color: var(--secondary-theme);
+  margin: 0;
+  margin-bottom: 32px;
+}
+.ClubServiceDesc {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: var(--font-family);
+  font-weight: 500;
+  width: 76%;
+  margin: auto auto 35px;
+}
+.ClubServiceItemImg {
+  display: block;
+  margin: 0 auto 35px;
+  position: relative;
+  overflow: hidden;
+}
+.ClubServiceItemName {
+  margin: 0 0 15px;
+  font-size: 30px;
+  color: var(--secondary-theme);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: block;
+}
+.ClubServiceItemDesc {
+  font-size: 14px;
+  color: var(--secondary-theme);
+  margin-bottom: 40px;
+}
+.btnPrimary {
+  font-size: 12px;
+  padding: 7px 26px;
+  line-height: 1.6em;
+  min-width: 125px;
+  text-transform: lowercase;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: 0;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  background-color: #cebd88;
+  box-shadow: inset 0 0px 0 50px #cebd88;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-offset: 1px;
+  outline-color: #cebd88;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  font-weight: 600;
+}
+.btnPrimary:hover {
+  box-shadow: inset 0 0px 0 0 #cebd88;
+  background-color: #28364b;
+  color: #fff;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-offset: 1px;
+  outline-color: #28364b;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .ClubServiceItem {
+    margin-right: 0px;
   }
-  .ClubServicesItems button[aria-label="Go to next slide"]{
-    right: calc(100% + -53.7%);
-  }
-  .ClubServicesItems button[aria-label="Go to previous slide"],
-  .ClubServicesItems button[aria-label="Go to next slide"]{
-    min-width: 46px;
-    min-height: 46px;
-    opacity: 1;
-    cursor: pointer;
-    width: 46px;
-    height: 46px;
-    line-height: 70px;
-    bottom: 0;
-    border-radius: 0;
-    background-color: #fff;
-  }
-  .ClubServicesItems button[aria-label="Go to previous slide"]::before,
-  .ClubServicesItems button[aria-label="Go to next slide"]::before{
-    font-size: 18px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--secondary-theme);
-  }
-  .ClubServiceSubheading{
-    font-family: var(--font-family-cursive);
-    color: var(--primary-theme);
-    font-size: 30px;
-    margin: 0;
-  }
-  .ClubServiceHeading{
-    font-family: var(--font-family-display);
-    font-size: 48px;
-    color: var(--secondary-theme);
-    margin: 0;
-    margin-bottom: 32px;
-  }
-  .ClubServiceDesc{
-    font-size: 16px;
-    line-height: 1.6em;
-    font-family: var(--font-family);
-    font-weight: 500;
-    width: 76%;
-    margin: auto auto 35px;
-  }
-  .ClubServiceItemImg{
-    display: block;
-    margin: 0 auto 35px;
-    position: relative;
-    overflow: hidden;
-  }
-  .ClubServiceItemName{
-    margin: 0 0 15px;
-    font-size: 30px;
-    color: var(--secondary-theme);
-  }
-  .ClubServiceItemDesc{
-    font-size: 14px;
-    color: var(--secondary-theme);
-    margin-bottom: 40px;
-  }
-  .btnPrimary{
-    font-size: 12px;
-    padding: 7px 26px;
-    line-height: 1.6em;
-    min-width: 125px;
-    text-transform: lowercase;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    border: 0;
-    transition: all .3s ease;
-    transform: scale(1);
-    background-color: #cebd88;
-    box-shadow: inset 0 0px 0 50px #cebd88;
-    outline-width: 1px;
-    outline-style: solid;
-    outline-offset: 1px;
-    outline-color: #cebd88;
-    text-align: center;
-    vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
-    font-weight: 600;
-  }
-  .btnPrimary:hover{
-    box-shadow: inset 0 0px 0 0 #cebd88;
-    background-color: #28364b;
-    color: #fff;
-    outline-width: 1px;
-    outline-style: solid;
-    outline-offset: 1px;
-    outline-color: #28364b;
-    text-decoration: none;
-  }
-  @media screen and (max-width: 768px) {
-    .ClubServiceItem{
-        margin-right: 0px;
-    }
-  }
+}
+
+
+.clubServiceLink{
+  text-decoration: none;
+}

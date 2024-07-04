@@ -50,10 +50,7 @@ const Navbar = () => {
     "https://fama.b-cdn.net/sms/sms_video.mp4",
     "https://fama.b-cdn.net/sms/m1.webp",
     "https://fama.b-cdn.net/sms/cargo-ship.webp",
-    // 'https://fama.b-cdn.net/sms/SLIDE_01.webp',
-    // 'https://fama.b-cdn.net/sms/SLIDE_02.webp',
-    // 'https://fama.b-cdn.net/sms/SLIDE_03.webp',
-    // 'https://fama.b-cdn.net/sms/SLIDE_04.webp',
+
   ];
 
   return (
@@ -69,33 +66,16 @@ const Navbar = () => {
               ))}
             </div>
             <Link href="/" className={styles.logo}>
-              <img alt="Logo not found" src="marineLogo.webp" />
+              <img alt="Logo not found" src="https://fama.b-cdn.net/sms/sms_logo.png" />
             </Link>
           </div>
-
-          {/* <div className={styles.links}>
-        
-          {links.map((link) => (
-            <Link key={link.id} href={link.url} className={styles.link}>
-              {link.title}
-            </Link>
-          ))}
-          {session.status === "authenticated" && (
-            <button className={styles.logout} onClick={signOut}>
-              Logout
-            </button>
-          )}
-        </div> */}
-          {/*  autoPlay={true}
-          autoPlaySpeed={10000} // 10 seconds
-          infinite={true} */}
         </div>
       </div>
       <div className={styles.bannerContainer}>
         <Carousel
           responsive={responsive}
           // autoPlay={true}
-          autoPlaySpeed={10000} // 10 seconds
+          autoPlaySpeed={10000} 
           infinite={true}
         >
           {media.map((url, index) => (
