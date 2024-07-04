@@ -42,7 +42,7 @@ const MeetOurTeamSection = () => {
               <div className={styles.MeetOurTeamSectionItems}>
                 {data.map((ele, index) => (
                   <div className={styles.MeetOurTeamSectionItem} key={index}>
-                    <div className={styles.MeetOurTeamSectionImg}>
+                    <div className={styles.MeetOurTeamSectionImg} key={index}>
                       <img
                         src={ele.image}
                         alt={`Slide ${index + 1}`}

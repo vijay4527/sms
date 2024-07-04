@@ -73,7 +73,7 @@ const ClubServicesSection = () => {
             <div className={styles.ClubServicesItems}>
               <Carousel responsive={responsiveClubServices}>
                 {ClubServicesImg.map((ele, index) => (
-                    <Link href={`/services/${ele.name.split(" ").join("-")}`} className={styles.clubServiceLink}>
+                    <Link href={`/services/${ele.name.split(" ").join("-")}`} className={styles.clubServiceLink} key={index}>
                      <div className={styles.ClubServiceItem} key={index}>
                     <div className={styles.ClubServiceItemImg}>
                       <img
