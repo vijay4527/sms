@@ -25,12 +25,12 @@ const OurBrandSection = () => {
     };
 
     const ClubServicesImg = [
-        'https://fama.b-cdn.net/sms/partner-1.webp',
-        'https://fama.b-cdn.net/sms/partner-2.webp',
-        'https://fama.b-cdn.net/sms/partner-3.webp',
-        'https://fama.b-cdn.net/sms/partner-4.webp',
-        'https://fama.b-cdn.net/sms/partner-5.webp',
-        'https://fama.b-cdn.net/sms/partner-6.webp',
+        'https://fama.b-cdn.net/sms/client1.png',
+        'https://fama.b-cdn.net/sms/client2.png',
+        'https://fama.b-cdn.net/sms/client3.png',
+        'https://fama.b-cdn.net/sms/client4.png',
+        'https://fama.b-cdn.net/sms/client5.png',
+        'https://fama.b-cdn.net/sms/client6.png',
     ];
 
     return (
