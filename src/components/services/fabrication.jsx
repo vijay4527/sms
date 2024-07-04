@@ -31,7 +31,7 @@ const page = () => {
                   repairs, reducing downtime and facilitating the swift return
                   of vessels to service. Operating round the clock, 365 days a
                   year, we guarantee continuous support for the uninterrupted
-                  operation of our clients' vessels.
+                  operation of our clients vessels.
                 </p>
               </div>
             </div>
