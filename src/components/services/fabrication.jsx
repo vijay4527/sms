@@ -19,7 +19,7 @@ const page = () => {
                   structures, piping, and outfitting for the marine and offshore
                   oil and gas industries. Collaborating with our associate
                   companies, we undertake projects in Singapore, Indonesia, and
-                  Bangladesh, tailored to our clients' needs.
+                  Bangladesh, tailored to our clients needs.
                 </p>
               </div>
             </div>

@@ -132,7 +132,9 @@ const page = () => {
             <div className="description">
               <div className="text text-page">
                 <p>
-                Advanced reconditioning techniques that enhance the performance and reliability of your engines in major overhauling.
+                  Advanced reconditioning techniques that enhance the
+                  performance and reliability of your engines in major
+                  overhauling.
                 </p>
               </div>
             </div>
@@ -142,7 +144,7 @@ const page = () => {
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />
-               <img
+              <img
                 src="https://fama.b-cdn.net/sms/reconditioning2.jpg"
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
@@ -153,7 +155,8 @@ const page = () => {
             <div className="description">
               <div className="text text-page">
                 <p>
-                High-quality spare parts that meet the stringent standards of the marine industry.
+                  High-quality spare parts that meet the stringent standards of
+                  the marine industry.
                 </p>
               </div>
             </div>
@@ -163,7 +166,7 @@ const page = () => {
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />
-               <img
+              <img
                 src="https://fama.b-cdn.net/sms/spareparts2.jpg"
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
@@ -172,7 +175,9 @@ const page = () => {
             <div className="description">
               <div className="text text-page">
                 <p>
-                Trust us to keep your engines running smoothly with our unparalleled service and expertise. Contact us today to learn how we can support your marine operations.
+                  Trust us to keep your engines running smoothly with our
+                  unparalleled service and expertise. Contact us today to learn
+                  how we can support your marine operations.
                 </p>
               </div>
             </div>
