@@ -56,8 +56,8 @@ const page = () => {
                   <li>- Quick scan of the gear set</li>
                   <li>- Blade repair</li>
                   <li>- Hub inspection and repair</li>
+
                   <div className={styles.image}>
-                   
                     <img
                       src="https://fama.b-cdn.net/sms/hubInspection2.jpg"
                       className="attachment-lamaro-post size-lamaro-post wp-post-image"

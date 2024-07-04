@@ -10,7 +10,7 @@ const page = () => {
             id="post-7728"
             className={`post-7728 ${styles.services} type-services status-publish has-post-thumbnail hentry services-category-services`}
           >
-            <h3>Overhauling of Main Engine & Generator</h3>
+            <h3>Overhauling of Main Engine and Generator</h3>
 
             <h5>Full Service Capabilities</h5>
 
