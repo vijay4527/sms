@@ -9,7 +9,7 @@ export default function Home() {
       <ClubServicesSection />
       <AboutUs></AboutUs>
       <AboutYachtClubSection/>
-      <MeetOurTeamSection />
+      {/* <MeetOurTeamSection /> */}
       <OurBrandSection />
     </div>
   );
