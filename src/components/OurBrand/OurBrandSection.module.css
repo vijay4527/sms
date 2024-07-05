@@ -67,3 +67,38 @@
 .OurBrandWrapper [aria-label="Go to next slide"]{
     display: none;
 }
+
+
+.AboutYachtClubSectionContainer{
+    position: relative;
+    background-image: url(https://fama.b-cdn.net/sms/countup-bg.webp);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: #f1f0e8;
+     padding: 125px 0px;
+}
+
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.clients {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .clients img {
+    max-width: 60%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+  }
+  .clients img:hover {
+    transform: scale(1.15);
+  }
+  @media (max-width: 768px) {
+    .clients img {
+      max-width: 40%;
+    }
+  }
