@@ -30,7 +30,9 @@
   background-color: #fff;
   border-bottom: 4px solid transparent;
   cursor: pointer;
-  max-height: 570px;
+  /* max-height: 570px; */
+  height: 100%;
+  display: grid;
 }
 .ClubServiceItem:hover {
   border-color: var(--primary-theme);
@@ -99,9 +101,9 @@
   margin: 0 0 15px;
   font-size: 30px;
   color: var(--secondary-theme);
-  white-space: nowrap;
+  /* white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; */
   width: 100%;
   display: block;
 }
@@ -154,4 +156,9 @@
 
 .clubServiceLink{
   text-decoration: none;
+  height: 100%;
+}
+
+.ClubServiceButton{
+  margin-top: auto;
 }

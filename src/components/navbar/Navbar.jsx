@@ -64,6 +64,18 @@ const Navbar = () => {
                   {link.title}
                 </Link>
               ))}
+              <div className={styles.dropdown}>
+                <Link href="#" className={styles.link}>
+                    Test
+                </Link>
+                <div className={styles.dropdownItems}>
+                  <ul>
+                    <li><Link href='#'>test 1</Link></li>
+                    <li><Link href='#'>test 2</Link></li>
+                    <li><Link href='#'>test 3</Link></li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <Link href="/" className={styles.logo}>
               <img alt="Logo not found" src="https://fama.b-cdn.net/sms/sms_logo.png" />
