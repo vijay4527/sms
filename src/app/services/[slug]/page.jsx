@@ -92,7 +92,7 @@ export async function generateMetadata({ params }) {
         };
       default:
         return {
-          title: "Service Not Found",
+          title: "Shazim Marine Service",
           description: "The requested service is not available.",
         };
     }
