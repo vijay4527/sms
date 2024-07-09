@@ -10,6 +10,22 @@ export const metadata = {
   title: "shazim marine service",
   description:
     "We have a strong team of experienced Master Mariners and flexible staff with a solid marine industry background. Our audited global network meets client demands with competitive prices and high quality. Our skilled Engineers and Technicians, including those with MAN B&W Training Certificates, excel in inboard marine engine services and repairs. Based across India, each team member brings over 15 years of marine engine repair experience.",
+    images: [
+      {
+        url: "https://fama.b-cdn.net/gw/gwlogo.png",
+        height: 1200,
+        width: 600,
+        alt: "Alt",
+      },
+    ],
+    icons:{
+      icon:[
+        "/favicon/favicon.ico"
+      ],
+      shortcut:[
+        "/favicon/favicon.ico"
+      ],
+    }
 };
 
 export default function RootLayout({ children }) {
