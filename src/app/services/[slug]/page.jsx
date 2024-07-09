@@ -12,31 +12,31 @@ const generateMetadata = (service) => {
       return {
         title: "Overhauling of Main Engine and Generator",
         description:
-          "Expert overhauling services for main engines and generators, ensuring optimal performance and longevity.",
+          "At Shazim Marine Mechanical Services, our team of highly skilled engineers and technicians boasts extensive experience and certifications in a diverse array of diesel engines and main engine overhauls.",
       };
     case "Propulsion Systems":
       return {
         title: "Propulsion Systems",
         description:
-          "Comprehensive services for propulsion systems, enhancing vessel efficiency and reliability.",
+          "Our Propulsion Service efficiently manages the entire maintenance process, leveraging the expertise of our highly skilled engineers who have extensive experience with all major installations.",
       };
     case "Bow Thruster Systems":
       return {
         title: "Bow Thruster Systems",
         description:
-          "Specialized services for bow thruster systems, improving maneuverability and control.",
+          "Shazim Marine Mechanical Services offers comprehensive bow thruster inspection and repair services, whether in dock, in-house, or afloat, depending on the specific requirements.",
       };
     case "Winches and Hydraulics":
       return {
         title: "Winches and Hydraulics",
         description:
-          "Professional winch and hydraulic system services for robust and efficient operations.",
+          "At Shazim Marine Mechanical Services, our team of experienced professionals specializes in hydraulics and winch-related repairs. We provide on-site repair and maintenance services for winches.",
       };
     case "Fabrication":
       return {
         title: "Fabrication",
         description:
-          "Custom fabrication services to meet diverse marine and industrial needs.",
+          "Shazim Marine Mechanical Services specializes in fabricating structures, piping, and outfitting for the marine and offshore oil and gas industries, with projects in Singapore, Indonesia, and Bangladesh.",
       };
     default:
       return {
