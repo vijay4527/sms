@@ -83,10 +83,10 @@ const OurBrandSection = () => {
           </div>
           <div className="row">
             
-
+{/* 
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img src="https://fama.b-cdn.net/sms/client7.png" className="img-fluid" alt="" />
-            </div>
+            </div> */}
 
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img src="https://fama.b-cdn.net/sms/client8.png" className="img-fluid" alt="" />

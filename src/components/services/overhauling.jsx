@@ -40,7 +40,7 @@ const page = () => {
             <div className="description">
               <div className="text text-page">
                 <p>
-                  Our engine repair department excels in providing thorough
+                  Our engine repair department excels in providing through
                   inboard marine engine services and repairs, fully equipped
                   with mobile capabilities. Each technician and supervisor on
                   our team brings over 15 years of dedicated marine engine
