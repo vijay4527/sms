@@ -95,7 +95,7 @@ const page = () => {
                 // sizes="(max-width: 1600px) 100vw, 1600px"
               />
             </div>
-            <div className="description">
+            {/* <div className="description">
               <div className="text text-page">
                 <p>
                   Our engine repair department excels in providing thorough
@@ -109,7 +109,7 @@ const page = () => {
                   services anywhere in the world.
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <h6>Main Engine Overhaul</h6>
             <div className="description">
