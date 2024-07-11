@@ -55,7 +55,7 @@ const ClubServicesSection = () => {
   ];
 
   return (
-    
+
     <section className={styles.sectionContainer}>
       <div className={styles.sectionDivider}></div>
       <div className={styles.ClubServicesContainer}>
@@ -73,34 +73,36 @@ const ClubServicesSection = () => {
             <div className={styles.ClubServicesItems}>
               <Carousel responsive={responsiveClubServices}>
                 {ClubServicesImg.map((ele, index) => (
-                    <Link href={`/services/${ele.name.split(" ").join("-")}`} className={styles.clubServiceLink} key={index}>
-                     <div className={styles.ClubServiceItem} key={index}>
-                    <div className={styles.ClubServiceItemImg}>
-                      <img
-                        src={ele.image}
-                        alt={`Slide ${index + 1}`}
-                        style={{ width: "100%" }}
-                      />
-                    </div>
-                    <div className={styles.ClubServiceItemInfo}>
-                      <div
-                        className={styles.ClubServiceItemName}
-                        title={ele.name}
-                      >
-                        {ele.name}
+                  <Link href={`/services/${ele.name.split(" ").join("-")}`} className={styles.clubServiceLink} key={index}>
+                    <div className={styles.ClubServiceItem} key={index}>
+                      <div>
+                      <div className={styles.ClubServiceItemImg}>
+                        <img
+                          src={ele.image}
+                          alt={`Slide ${index + 1}`}
+                          style={{ width: "100%" }}
+                        />
                       </div>
-                      <div className={styles.ClubServiceItemDesc}>
-                        {ele.desc}
+                      <div className={styles.ClubServiceItemInfo}>
+                        <div
+                          className={styles.ClubServiceItemName}
+                          title={ele.name}
+                        >
+                          {ele.name}
+                        </div>
+                        <div className={styles.ClubServiceItemDesc}>
+                          {ele.desc}
+                        </div>
+                      </div>
+                      </div>
+                      <div className={styles.ClubServiceButton}>
+                        <button className={styles.btnPrimary}>
+                          <span>read more</span>
+                        </button>
                       </div>
                     </div>
-                    <div className={styles.ClubServiceButton}>
-                      <button className={styles.btnPrimary}>
-                        <span>read more</span>
-                      </button>
-                    </div>
-                  </div>
-                    </Link>
-                 
+                  </Link>
+
                 ))}
               </Carousel>
             </div>
