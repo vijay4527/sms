@@ -10,7 +10,7 @@ const page = () => {
             id="post-7728"
             className={`post-7728 ${styles.services} type-services status-publish has-post-thumbnail hentry services-category-services`}
           >
-            <h3>Bow Thruster System : </h3>
+            <h3>Winches and Hydraulics : </h3>
 
             <div className="description">
               <div className="text text-page">
