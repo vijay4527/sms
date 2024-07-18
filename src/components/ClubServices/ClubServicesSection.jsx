@@ -33,7 +33,7 @@ const ClubServicesSection = () => {
       desc: "At Shazim Marine Mechanical Services, our team of highly skilled engineers and technicians boasts extensive experience and certifications in a diverse array of diesel engines and main engine overhauls.",
     },
     {
-      image: "https://fama.b-cdn.net/sms/service2.webp",
+      image: "https://fama.b-cdn.net/sms/services/propulsion/propulsion.webp",
       name: "Propulsion Systems",
       desc: "Our Propulsion Service efficiently manages the entire maintenance process, leveraging the expertise of our highly skilled engineers who have extensive experience with all major installations.",
     },

@@ -23,17 +23,20 @@ const page = () => {
               </div>
             </div>
             <div className={styles.image}>
-              <img
-                src="https://fama.b-cdn.net/sms/winches1.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
-              <img
-                src="https://fama.b-cdn.net/sms/winches2.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
+              <div className={styles.imageContainer}>
+                <img
+                  src="https://fama.b-cdn.net/sms/winches3.jpg"
+                  className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                  alt=""
+                />
+                <img
+                  src="https://fama.b-cdn.net/sms/winches4.jpg"
+                  className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                  alt=""
+                />
+              </div>
             </div>
+
             <div className="description">
               <div className="text text-page">
                 <p>
@@ -47,16 +50,18 @@ const page = () => {
               </div>
             </div>
             <div className={styles.image}>
-              <img
-                src="https://fama.b-cdn.net/sms/winches3.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
-              <img
-                src="https://fama.b-cdn.net/sms/winches4.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
+              <div className={styles.imageContainer}>
+                <img
+                  src="https://fama.b-cdn.net/sms/winches1.jpg"
+                  className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                  alt=""
+                />
+                <img
+                  src="https://fama.b-cdn.net/sms/winches2.jpg"
+                  className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                  alt=""
+                />
+              </div>
             </div>
             <div className="description">
               <div className="text text-page">

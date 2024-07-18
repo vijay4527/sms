@@ -29,20 +29,8 @@ const page = () => {
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />
-             
             </div>
-            <div className={styles.image}>
-              <img
-                src="https://fama.b-cdn.net/sms/cppMaintenance3.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
-              <img
-                src="https://fama.b-cdn.net/sms/cppMaintenance4.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
-            </div>
+          
             <div className="description">
               <div className="text text-page">
                 <p>Commonly Requested Checks Include</p>
@@ -58,11 +46,18 @@ const page = () => {
                   <li>- Hub inspection and repair</li>
 
                   <div className={styles.image}>
-                    <img
-                      src="https://fama.b-cdn.net/sms/hubInspection2.jpg"
-                      className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                      alt=""
-                    />
+                    <div className={styles.imageContainer}>
+                      <img
+                        src="https://fama.b-cdn.net/sms/services/fab/bs2.webp"
+                        className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                        alt=""
+                      />
+                      <img
+                        src="https://fama.b-cdn.net/sms/hubInspection2.jpg"
+                        className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </ul>
                 <p>

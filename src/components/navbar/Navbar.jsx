@@ -78,7 +78,7 @@ const Navbar = () => {
               </div>
             </div>
             <Link href="/" className={styles.logo}>
-              <img alt="Logo not found" src="https://fama.b-cdn.net/sms/sms_logo.png" />
+              <img alt="Logo not found" src="https://fama.b-cdn.net/sms/sms_logo.webp" />
             </Link>
           </div>
         </div>
@@ -117,11 +117,11 @@ const Navbar = () => {
                     sed ultricies erat, nec euismod metus. Morbi porttitor
                     sapien vitae leo scelerisque consequat.
                   </p>
-                  <div>
+                  {/* <div>
                     <button className={styles.btnPrimary}>
                       <span>Online Store</span>
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

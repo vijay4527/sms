@@ -37,14 +37,14 @@ const page = () => {
             </div>
             <div className={styles.image}>
               <img
-                src="https://fama.b-cdn.net/sms/fabrication2.jpg"
+                src="https://fama.b-cdn.net/sms/services/fab/fabrication2.webp"
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />
             </div>
             <div className={styles.image}>
               <img
-                src="https://fama.b-cdn.net/sms/fabrication4.jpg"
+                src="https://fama.b-cdn.net/sms/services/fab/fab1.webp"
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />

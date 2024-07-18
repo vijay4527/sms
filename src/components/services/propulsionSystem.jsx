@@ -27,28 +27,33 @@ const page = () => {
               </div>
             </div>
             <div className={styles.image}>
-              <img
-                src="https://fama.b-cdn.net/sms/cppMaintanence.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
-              <img
-                src="https://fama.b-cdn.net/sms/cppMaintenance2.jpg"
-                className="attachment-lamaro-post size-lamaro-post wp-post-image"
-                alt=""
-              />
+              <div className={styles.imageContainer}>
+                <img
+                  src="https://fama.b-cdn.net/sms/services/propulsion/propulsion.webp"
+                  className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                  alt=""
+                />
+                <img
+                  src="https://fama.b-cdn.net/sms/services/propulsion/p2.webp"
+                  className="attachment-lamaro-post size-lamaro-post wp-post-image"
+                  alt=""
+                />
+              </div>
             </div>
             <div className={styles.image}>
+            <div className={styles.imageContainer}>
+
               <img
-                src="https://fama.b-cdn.net/sms/cppMaintenance3.jpg"
+                src="https://fama.b-cdn.net/sms/services/propulsion/cppMaintenance3.webp"
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />
               <img
-                src="https://fama.b-cdn.net/sms/cppMaintenance4.jpg"
+                src="https://fama.b-cdn.net/sms/services/propulsion/cppMaintenance4.webp"
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />
+              </div>
             </div>
             <div className="description">
               <div className="text text-page">
@@ -56,16 +61,16 @@ const page = () => {
                   To optimize scheduled docking, we combine various tasks,
                   ensuring efficiency and minimizing downtime.
                 </p>
-             
-                  <p>Commonly Combined Tasks Include:</p>
-                  <ul className={styles.list}>
-                    <li>- Removal of the shaft</li>
-                    <li>- Replacement of blade foot O-rings</li>
-                    <li>- RReplacement of stern tube seals</li>
-                    <li>- Inspection of the hub</li>
-                    <li>- OD-box check-up</li>
-                    <li>- Inspection of SKF coupling</li>
-                  </ul>
+
+                <p>Commonly Combined Tasks Include:</p>
+                <ul className={styles.list}>
+                  <li>- Removal of the shaft</li>
+                  <li>- Replacement of blade foot O-rings</li>
+                  <li>- RReplacement of stern tube seals</li>
+                  <li>- Inspection of the hub</li>
+                  <li>- OD-box check-up</li>
+                  <li>- Inspection of SKF coupling</li>
+                </ul>
                 <p>
                   At Shazim Marine Mechanical Services, we ensure your
                   propulsion system receives top-tier maintenance, enhancing
@@ -74,8 +79,6 @@ const page = () => {
               </div>
             </div>
           </article>
-
-         
         </section>
       </div>
     </div>
