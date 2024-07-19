@@ -188,12 +188,12 @@
   outline-color: #28364b;
   text-decoration: none;
 }
-.bannerSeaAnchor{
+.bannerSeaAnchor {
   position: absolute;
-    right: 115px;
-    bottom: -67px;
-    z-index: 10;
-    pointer-events: none;
+  right: 115px;
+  bottom: -67px;
+  z-index: 10;
+  pointer-events: none;
 }
 @media screen and (max-width: 768px) {
   .bannerSeaAnchor {
@@ -227,20 +227,20 @@
   }
 }
 
-.dropdown:hover .dropdownItems{
+.dropdown:hover .dropdownItems {
   display: block;
 }
-.dropdownItems{
+.dropdownItems {
   display: none;
   position: absolute;
-    right: 20px;
-    top: 100%;
-    background-color: #fff;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: .25rem;
+  right: 20px;
+  top: 100%;
+  background-color: #fff;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
 }
 .dropdownItems ul {
   padding: 0;
@@ -248,19 +248,26 @@
   list-style: none;
 }
 
-.dropdownItems ul li{
+.dropdownItems ul li {
   width: 100%;
 }
-.dropdownItems ul li a{
+.dropdownItems ul li a {
   width: 100%;
-    padding: .25rem 1.5rem;
+  padding: 0.25rem 1.5rem;
   text-decoration: none;
-    color: var(--primary-theme);
-    text-transform: capitalize;
-    display: block;
+  color: var(--primary-theme);
+  text-transform: capitalize;
+  display: block;
 }
 
-.dropdownItems ul li a:hover{
+.dropdownItems ul li a:hover {
   background-color: var(--primary-theme);
   color: #fff;
+}
+
+.logoImage {
+  width: 100%;
+  border: 1px;
+  border-radius: 120px;
+  background-color: white;
 }

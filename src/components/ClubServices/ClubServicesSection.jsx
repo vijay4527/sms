@@ -56,7 +56,7 @@ const ClubServicesSection = () => {
 
   return (
 
-    <section className={styles.sectionContainer}>
+    <section className={styles.sectionContainer} id="servicesSection">
       <div className={styles.sectionDivider}></div>
       <div className={styles.ClubServicesContainer}>
         <div className="container">

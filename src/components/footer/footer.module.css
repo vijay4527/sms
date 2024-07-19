@@ -93,3 +93,33 @@
       grid-row-gap: 0px;
   }
 }
+
+
+.logoImage{
+  width: 50%;
+  border: 1px;
+  border-radius: 120px;
+  background-color: white;
+}
+
+.whatsappContact{
+  display: flex;
+}
+
+.whatsappContact a{
+  color: white;
+  text-decoration: none;
+}
+
+.spanIcon{
+  margin-right: 15px;
+}
+
+.spanIcon i{
+  color: #cebd88;
+  font-size: 24px
+}
+
+.serviceLink{
+  text-decoration: none !important;
+}
