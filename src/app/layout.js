@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
           <link
           rel="icon"
           type="image/png"
-          sizes="32x32"
+          sizes="48x48"
           href="/favicon-48x48.png"
         />
         <link
