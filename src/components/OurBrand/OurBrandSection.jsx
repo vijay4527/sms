@@ -82,13 +82,13 @@ const OurBrandSection = () => {
               />
             </div>
 
-            <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            {/* <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img
                 src="https://fama.b-cdn.net/sms/client4.png"
                 className="img-fluid"
                 alt=""
               />
-            </div>
+            </div> */}
 
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img
@@ -104,8 +104,6 @@ const OurBrandSection = () => {
                 alt=""
               />
             </div>
-          </div>
-          <div className="row">
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img
                 src="https://fama.b-cdn.net/sms/client8.png"
@@ -113,7 +111,8 @@ const OurBrandSection = () => {
                 alt=""
               />
             </div>
-
+          </div>
+          <div className="row">
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img
                 src="https://fama.b-cdn.net/sms/client9.png"
@@ -131,7 +130,7 @@ const OurBrandSection = () => {
             </div>
 
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img src="/client11.png" className="img-fluid" alt="" />
+              <img src="https://fama.b-cdn.net/sms/clients/client11.webp" className="img-fluid" alt="" />
             </div>
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img
@@ -147,8 +146,6 @@ const OurBrandSection = () => {
                 alt=""
               />
             </div>
-          </div>
-          <div className="row">
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img
                 src="https://fama.b-cdn.net/sms/client14.png"
