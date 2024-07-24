@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./WhatsAppButton.module.css";
+import styles from "@/components/whatsAppButton/whatsAppButton.module.css";
 import Link from "next/link";
 const WhatsAppButton = () => {
   return (
