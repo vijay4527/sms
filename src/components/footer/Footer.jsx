@@ -157,6 +157,8 @@ const Footer = () => {
                     {"  "}
                     {" , "}{" "}
                     <Link href="tel:+91 8433795289">+91 8433795289</Link>
+                    <Link href="tel:+91 8433795289">+91 8169374414</Link>
+
                   </li>
                   <li className={styles.whatsappContact}>
                     <span className={styles.spanIcon}>
@@ -169,6 +171,9 @@ const Footer = () => {
                     {" , "}{" "}
                     <Link href="whatsapp://send?phone=+91 8433795289">
                       +91 8433795289
+                    </Link>
+                    <Link href="whatsapp://send?phone=+91 8433795289">
+                      +91 8169374414
                     </Link>
                   </li>
 
