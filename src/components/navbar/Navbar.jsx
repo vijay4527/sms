@@ -47,7 +47,7 @@ const Navbar = () => {
   };
 
   const media = [
-    "https://fama.b-cdn.net/sms/sms_video.mp4",
+    // "https://fama.b-cdn.net/sms/sms_video.mp4",
     "https://fama.b-cdn.net/sms/m1.webp",
     "https://fama.b-cdn.net/sms/cargo-ship.webp",
 
@@ -66,13 +66,15 @@ const Navbar = () => {
               ))}
               <div className={styles.dropdown}>
                 <Link href="#" className={styles.link}>
-                    Test
+                    Services
                 </Link>
                 <div className={styles.dropdownItems}>
                   <ul>
-                    <li><Link href='#'>test 1</Link></li>
-                    <li><Link href='#'>test 2</Link></li>
-                    <li><Link href='#'>test 3</Link></li>
+                    <li><Link href='/services/Overhauling-of-Main-Engine-and-Generator'>Overhauling</Link></li>
+                    <li><Link href='/services/Propulsion-Systems'>Propulsion System</Link></li>
+                    <li><Link href='/services/Bow-Thruster-Systems'>Bow Thurster System</Link></li>
+                    <li><Link href='/services/Winches-and-Hydraulics'>Winches and Hydraulics</Link></li>
+                    <li><Link href='/services/Fabrication'>Fabrication</Link></li>
                   </ul>
                 </div>
               </div>
@@ -107,7 +109,7 @@ const Navbar = () => {
                   style={{ width: "100%" }}
                 />
               )}
-              <div className={styles.bannerBody}>
+              {/* <div className={styles.bannerBody}>
                 <div>
                   <h4 className={styles.bannerSubheading}>Prepare for</h4>
                   <h3 className={styles.bannerHeading}>Fantasy sailing</h3>
@@ -117,13 +119,13 @@ const Navbar = () => {
                     sed ultricies erat, nec euismod metus. Morbi porttitor
                     sapien vitae leo scelerisque consequat.
                   </p>
-                  {/* <div>
+                  <div>
                     <button className={styles.btnPrimary}>
                       <span>Online Store</span>
                     </button>
-                  </div> */}
+                  </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           ))}
         </Carousel>

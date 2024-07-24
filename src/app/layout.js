@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter, Roboto, Poppins } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import AuthProvider from "@/components/AuthProvider/AuthProvider";
-
+import WhatsAppButton from "@/components/whatsAppButton/whatsAppButton";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -91,7 +91,9 @@ export default function RootLayout({ children }) {
         <AuthProvider>
           <Navbar />
           {children}
+          
           <Footer />
+          <WhatsAppButton></WhatsAppButton>
         </AuthProvider>
       </body>
     </html>
