@@ -14,6 +14,7 @@ const Footer = () => {
                 <img
                   src="https://fama.b-cdn.net/sms/sms_logo.webp"
                   className={styles.logoImage}
+                  alt="logo"
                 />
               </div>
               <div className={styles.footerLinks}>
