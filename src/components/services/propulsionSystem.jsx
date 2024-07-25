@@ -66,7 +66,7 @@ const page = () => {
                 <ul className={styles.list}>
                   <li>- Removal of the shaft</li>
                   <li>- Replacement of blade foot O-rings</li>
-                  <li>- RReplacement of stern tube seals</li>
+                  <li>- Replacement of stern tube seals</li>
                   <li>- Inspection of the hub</li>
                   <li>- OD-box check-up</li>
                   <li>- Inspection of SKF coupling</li>

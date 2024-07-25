@@ -1,49 +1,49 @@
 "use client";
 import React from "react";
 import styles from "./AboutYachtClubSection.module.css";
-import Image from "next/image";
 
 const AboutYachtClubSection = () => {
-    const data = [
-        {
-            number: 39,
-            name: 'Motor Yachts',
-            desc: 'Integer sagittis nisi nec tortor fermentum aliquet. Integer non neque. Nullam sed ultricies.'
-        },
-        {
-            number: 138,
-            name: 'Professional Sailors',
-            desc: 'Integer sagittis nisi nec tortor fermentum aliquet. Integer non neque. Nullam sed ultricies.'
-        },
-        {
-            number: 40,
-            name: 'Sea Routes',
-            desc: 'Integer sagittis nisi nec tortor fermentum aliquet. Integer non neque. Nullam sed ultricies.'
-        },
-    ];
-    return (
-        <section className={styles.sectionContainer}>
-            <div className={styles.AboutYachtClubSectionContainer}>
-                <div className="container">
-                    <div className={styles.AboutYachtClubBody}>
-                        <h4 className={styles.AboutYachtClubSubheading}>About club</h4>
-                        <h3 className={styles.AboutYachtClubHeading}>About yacht club</h3>
+  const data = [
+    {
+      number: "200+",
+      name: "Projects Completed",
+      desc: "We take pride in the diverse range of projects we have successfully completed. From large-scale ventures to specialized tasks, each project reflects our commitment to quality and innovation",
+    },
+    {
+      number: "30+",
+      name: "Supports",
+      desc: "Exceptional support is a cornerstone of our service. We believe in providing comprehensive assistance to ensure our clients’ needs are met promptly and effectively.",
+    },
+    {
+      number: "100+",
+      name: "Clients",
+      desc: "Over the years, we have had the privilege of working with a variety of clients, from small businesses to large enterprises. Each partnership has helped us grow and improve our services.",
+    },
+  ];
+  return (
+    <section className={styles.sectionContainer}>
+      <div className={styles.AboutYachtClubSectionContainer}>
+        <div className="container">
+          <div className={styles.AboutYachtClubBody}>
+            <h4 className={styles.AboutYachtClubSubheading}>Our Achievements</h4>
+            <h3 className={styles.AboutYachtClubHeading}>
+              Our Achievements at a Glance
+            </h3>
 
-                        <div className={styles.customerCountBody}>
-                            {data.map((ele, index) => (
-                                <div className={styles.customerCountItem} key={index}>
-                                    <div className={styles.countNumber}>{ele.number}</div>
-                                    <div className={styles.countName}>{ele.name}</div>
-                                    <div className={styles.countDesc}>{ele.desc}</div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
+            <div className={styles.customerCountBody}>
+              {data.map((ele, index) => (
+                <div className={styles.customerCountItem} key={index}>
+                  <div className={styles.countNumber}>{ele.number}</div>
+                  <div className={styles.countName}>{ele.name}</div>
+                  <div className={styles.countDesc}>{ele.desc}</div>
                 </div>
+              ))}
             </div>
-        </section>
-    );
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default AboutYachtClubSection;

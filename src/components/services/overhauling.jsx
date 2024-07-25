@@ -85,7 +85,7 @@ const page = () => {
             <div className={styles.image}>
             <div className={styles.imageContainer}>
               <img
-                src="/overhauling7.jpg"
+                src="https://fama.b-cdn.net/sms/services/overhauling/overhauling7.webp"
                 className="attachment-lamaro-post size-lamaro-post wp-post-image"
                 alt=""
               />

@@ -55,45 +55,50 @@ const ClubServicesSection = () => {
   ];
 
   return (
-
     <section className={styles.sectionContainer} id="servicesSection">
       <div className={styles.sectionDivider}></div>
       <div className={styles.ClubServicesContainer}>
         <div className="container">
           <div className={styles.ClubServicesBody}>
             <h4 className={styles.ClubServiceSubheading}>What we do</h4>
-            <h3 className={styles.ClubServiceHeading}>Club services</h3>
+            <h3 className={styles.ClubServiceHeading}>Our services</h3>
             <p className={styles.ClubServiceDesc}>
-              Integer sagittis nisi nec tortor fermentum aliquet. Integer non
-              neque tempor, porttitor lorem id, commodo nulla. Nullam sed
-              ultricies erat, nec euismod metus. Morbi porttitor sapien vitae
-              leo scelerisque consequat.
+              Our service is of international / national quality and we cater
+              world wide to, machinery overhaul and repair services, hydraulics,
+              calibration, gear box rudder, compressor, pumps, valves, windlass,
+              mooring winch, turbo charger, hatch cover, all other machinery
+              repairs & maintenance, supply of general store & spare parts & we
+              also supply manpower.
             </p>
 
             <div className={styles.ClubServicesItems}>
               <Carousel responsive={responsiveClubServices}>
                 {ClubServicesImg.map((ele, index) => (
-                  <Link href={`/services/${ele.name.split(" ").join("-")}`} className={styles.clubServiceLink} key={index}>
+                  <Link
+                    href={`/services/${ele.name.split(" ").join("-")}`}
+                    className={styles.clubServiceLink}
+                    key={index}
+                  >
                     <div className={styles.ClubServiceItem} key={index}>
                       <div>
-                      <div className={styles.ClubServiceItemImg}>
-                        <img
-                          src={ele.image}
-                          alt={`Slide ${index + 1}`}
-                          style={{ width: "100%" }}
-                        />
-                      </div>
-                      <div className={styles.ClubServiceItemInfo}>
-                        <div
-                          className={styles.ClubServiceItemName}
-                          title={ele.name}
-                        >
-                          {ele.name}
+                        <div className={styles.ClubServiceItemImg}>
+                          <img
+                            src={ele.image}
+                            alt={`Slide ${index + 1}`}
+                            style={{ width: "100%" }}
+                          />
                         </div>
-                        <div className={styles.ClubServiceItemDesc}>
-                          {ele.desc}
+                        <div className={styles.ClubServiceItemInfo}>
+                          <div
+                            className={styles.ClubServiceItemName}
+                            title={ele.name}
+                          >
+                            {ele.name}
+                          </div>
+                          <div className={styles.ClubServiceItemDesc}>
+                            {ele.desc}
+                          </div>
                         </div>
-                      </div>
                       </div>
                       <div className={styles.ClubServiceButton}>
                         <button className={styles.btnPrimary}>
@@ -102,7 +107,6 @@ const ClubServicesSection = () => {
                       </div>
                     </div>
                   </Link>
-
                 ))}
               </Carousel>
             </div>
