@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React from "react";
 import styles from "./navbar.module.css";
-import { signOut, useSession } from "next-auth/react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -21,7 +20,6 @@ const links = [
 ];
 
 const Navbar = () => {
-  const session = useSession();
 
   const responsive = {
     superLargeDesktop: {
