@@ -1,63 +1,101 @@
-.sectionContainer{
-    position: relative;
+.sectionContainer {
+  position: relative;
 }
-.AboutYachtClubSectionContainer{
-    position: relative;
-    background-image: url(https://fama.b-cdn.net/sms/services-bg-2.webp);
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-color: #f1f0e8;
-    padding: 125px 0px;
+
+.AboutYachtClubSectionContainer {
+  position: relative;
+  background-image: url(https://fama.b-cdn.net/sms/services-bg-2.webp);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-color: #f1f0e8;
+  padding: 125px 0px;
 }
-.AboutYachtClubBody{
-    text-align: center;
+
+.AboutYachtClubBody {
+  text-align: center;
 }
-.AboutYachtClubSubheading{
-    font-family: var(--font-family-cursive);
-    color: var(--primary-theme);
-    font-size: 30px;
-    margin: 0;
-  }
-  .AboutYachtClubHeading{
-    font-family: var(--font-family-display);
-    font-size: 48px;
-    color: var(--secondary-theme);
-    margin: 0;
-    margin-bottom: 32px;
-  }
-  .customerCountBody{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+.AboutYachtClubSubheading {
+  font-family: var(--font-family-cursive);
+  color: var(--primary-theme);
+  font-size: 30px;
+  margin: 0;
+}
+
+.AboutYachtClubHeading {
+  font-family: var(--font-family-display);
+  font-size: 48px;
+  color: var(--secondary-theme);
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.customerCountBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.countNumber {
+  color: var(--primary-theme);
+  line-height: 1em;
+  position: relative;
+  font-size: 120px;
+  font-family: var(--font-family-display);
+  font-weight: 400;
+}
+
+.countName {
+  color: var(--secondary-theme);
+  margin: 36px 0 0;
+  font-size: 30px;
+  font-family: var(--font-family-display);
+  font-weight: 400;
+}
+
+.countDesc {
+  font-size: 14px;
+  line-height: 1.7em;
+  width: 75%;
+  font-family: var(--font-family);
+  font-weight: 500;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .customerCountBody {
+    grid-template-columns: 1fr;
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
   }
-  .countNumber{
-    color: var(--primary-theme);
-    line-height: 1em;
-    position: relative;
-    font-size: 120px;
-    font-family: var(--font-family-display);
-    font-weight: 400;
+
+  .ImageRotating {
+    top: -4% !important;
+    width: 9rem !important;
+    height: 9rem !important;
   }
-  .countName{
-    color: var(--secondary-theme);
-    margin: 36px 0 0;
-    font-size: 30px;
-    font-family: var(--font-family-display);
-    font-weight: 400;
+}
+
+.ImageRotating {
+  position: absolute;
+  top: -10%;
+  bottom: 0;
+  left: 6%;
+  right: 0;
+  width: 11rem;
+  height: 11rem;
+  z-index: 1;
+}
+
+.ImageRotating img {
+  width: 100%;
+  height: 100%;
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
   }
-  .countDesc{
-    font-size: 14px;
-    line-height: 1.7em;
-    width: 75%;
-    font-family: var(--font-family);
-    font-weight: 500;
-    margin: 10px auto;
-  }
-  @media screen and (max-width: 768px) {
-    .customerCountBody{
-        grid-template-columns: 1fr;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-    }
-  }
+}

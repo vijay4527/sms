@@ -22,6 +22,9 @@ const AboutYachtClubSection = () => {
   ];
   return (
     <section className={styles.sectionContainer}>
+    <div className={styles.ImageRotating}>
+      <img src="https://fama.b-cdn.net/sms/cumpus.webp" alt="img" />
+    </div>
       <div className={styles.AboutYachtClubSectionContainer}>
         <div className="container">
           <div className={styles.AboutYachtClubBody}>
