@@ -34,7 +34,7 @@ const AboutYachtClubSection = () => {
             </h3>
 
             <div className={styles.customerCountBody}>
-              {data.map((ele, index) => (
+               {data.map((ele, index) => (
                 <div className={styles.customerCountItem} key={index}>
                   <div className={styles.countNumber}>{ele.number}</div>
                   <div className={styles.countName}>{ele.name}</div>
