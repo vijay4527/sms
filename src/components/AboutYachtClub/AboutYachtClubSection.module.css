@@ -79,7 +79,7 @@
 
 .ImageRotating {
   position: absolute;
-  top: -10%;
+  top: -12%;
   bottom: 0;
   left: 6%;
   right: 0;
@@ -91,7 +91,7 @@
 .ImageRotating img {
   width: 100%;
   height: 100%;
-  animation: spin 12s linear infinite;
+  animation: spin 60s linear infinite;
 }
 
 @keyframes spin {
