@@ -79,12 +79,12 @@
 
 .ImageRotating {
   position: absolute;
-  top: -12%;
+  top: -11%;
   bottom: 0;
   left: 6%;
   right: 0;
-  width: 11rem;
-  height: 11rem;
+  width: 12rem;
+  height: 12rem;
   z-index: 1;
 }
 
